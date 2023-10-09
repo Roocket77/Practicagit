@@ -1,0 +1,49 @@
+*{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #5d5c5c;
+    
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+.cubo{
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    border:  3px solid #000;
+
+}
+    .uno:hover{
+        background-color: #fffb00;
+        transform: translate(5px, 10px);
+        transition: all 0.5s;
+    }
+    .dos:hover{
+        background-color: #36f393;
+        /* transform: scale(0.5,1 ); */
+    }
+    .tres:hover{
+        background-color: #0910de;
+        transform: rotate(90deg);
+        transition: all 0.3;
+    }
+    .cuatro:hover{
+        background-color: #d712fe;
+        transform: skew(40deg);
+
+    }

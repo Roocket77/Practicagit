@@ -1,0 +1,56 @@
+
+.fondo{
+    width: 300px;
+    border: 2px solid blueviolet;
+
+}
+img{
+    width: 100%;
+    
+}
+h1{
+    color: #820000;
+    animation: titilar 1.5s infinite;
+
+}
+p{
+    animation: colores 10s infinite;
+}
+@keyframes titilar{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+@keyframes colores{
+    0%{
+        color: green;
+    }
+    25%{
+        color: #820000;
+    }
+    50%{
+        color: bisque;
+        font-size: larger;
+
+    }
+    75%{
+        color: aqua;
+    }
+    100%{
+        color: rgb(1, 30, 55);
+    }
+}

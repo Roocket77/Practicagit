@@ -1,0 +1,12 @@
+.fondo{
+    background-color: #ff0000;
+
+}
+.carousel{
+    margin: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item{
+    max-width: 550px;
+}
